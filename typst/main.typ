@@ -1,8 +1,10 @@
 #import "template.typ": *
 
-// Take a look at the file `template.typ` in the file panel
-// to customize this template and discover how it works.
-#show: project.with(title: "Seminararbeit", authors: ("Felix Schreiber",))
+#show: project.with(title: "Seminararbeit", authors: ("Felix Schreiber",), logo: "/images/logo.png")
+
+= Test
+
+== Das Logo
 
 Das offizielle Scriptorgames-Logo besteht, wie in @logo zu sehen ist aus
 mehreren in sich verschlungenen Kurven, und wenn man genau hinsieht bilden sie
@@ -11,6 +13,8 @@ ein '*S*' und ein '*G*', wie im Firmennamen selbst: (*S*)criptor(*G*)ames.
 #figure(image("/images/logo.png", width: 70%), caption: [
   Das _offizielle_ Scriptorgames Logo
 ]) <logo>
+
+== Jährliches Einkommen
 
 Mit folgender Formel kann man das jährliche Einkommen der Firma berechnen:
 
@@ -27,9 +31,7 @@ $ "E" = "Unterbezahlte Mitarbeiter M"_"U" * (sqrt("0" - infinity) / "Firmenwert 
 oder, um es einfach zu sagen: "Schulden" sind was für
 Ge......hnachhauseverdiener... @harry
 
-// We generated the example code below so you can see how
-// your document will look. Go ahead and replace it with
-// your own content!
+#bibliography("bibliography.yml")
 
 = Introduction
 #lorem(60)
@@ -42,5 +44,3 @@ Ge......hnachhauseverdiener... @harry
 
 = Related Work
 #lorem(500)
-
-#bibliography("bibliography.yml")
