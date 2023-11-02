@@ -1,14 +1,14 @@
 bfs:
-    type: Web
-    author: [Bundesamt Für Strahlenschutz]
-    title: Strahlenwirkungen
-    url:
-      value: https://www.bfs.de/DE/themen/ion/wirkung/wirkung_node.html
-      date: 2023-05-02
+  type: Web
+  publisher: Bundesamt Für Strahlenschutz
+  title: Strahlenwirkungen
+  url:
+    value: https://www.bfs.de/DE/themen/ion/wirkung/wirkung_node.html
+    date: 2023-05-02
 
 df:
   type: Web
-  author: [Frank Grotelüschen]
+  author: ["Grotelüschen, Frank"]
   publisher: Deutschlandfunk
   title: Als Henri Becquerel seine Entdeckung der Radioaktivität präsentierte
   date: 2021-02-24
@@ -18,15 +18,15 @@ df:
 
 epa:
   type: Web
-  author: United States Environmental Protection Agency
+  publisher: United States Environmental Protection Agency
   title: Radiation Basics
   url:
     value: https://www.epa.gov/radiation/radiation-basics
     date: 2023-05-02
-      
+
 bioeffects:
   type: Book
-  author: [Grosch Daniel S., Hopewood Larry E.]
+  author: ["Grosch, Daniel S.", "Hopewood, Larry E."]
   title: Biological Effects of Radiations
   date: 1979
   location: Amsterdam, Niederlande
@@ -34,7 +34,7 @@ bioeffects:
 
 radiobio:
   type: Book
-  author: [Hall Eric J., Giaccia Amato J.]
+  author: ["Hall, Eric J.", "Giaccia, Amato J."]
   title: Radiobiology for the Radiologist
   date: 2011
   location: Philadelphia, Pennsylvania
@@ -42,7 +42,7 @@ radiobio:
 
 medphwiki:
   type: Web
-  author: Medizinphysik Wiki
+  publisher: Medizinphysik Wiki
   title: Biologische Strahlenwirkung
   url:
     value: https://medizinphysik.wiki/grundlagen/biologische-grundlagen/
@@ -50,7 +50,7 @@ medphwiki:
 
 leifi:
   type: Web
-  author: Leifiphysik
+  publisher: Leifiphysik
   title: Biologische Strahlenwirkung
   url:
     value: https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-einfuehrung/grundwissen/biologische-strahlenwirkung
@@ -58,7 +58,7 @@ leifi:
 
 umbw:
   type: Web
-  author: UM Baden-Württemberg
+  publisher: UM Baden-Württemberg
   title: Dosisgrößen und die Wirkung der Strahlung
   url:
     value: https://um.baden-wuerttemberg.de/de/umwelt-natur/kernenergie/strahlenschutz/informationen-zum-strahlenschutz/radioaktivitaet-und-ionisierende-strahlung/dosisgroessen-und-die-wirkung-der-strahlung
@@ -66,7 +66,15 @@ umbw:
 
 volkmer:
   type: Book
-  author: Volkmer M.
+  author: Volkmer, M.
   title: Radioaktivität und Strahlenschutz
   date: 2012
   location: Berlin, Deutschland
+
+giide:
+  type: Web
+  publisher: Bundesamt für Justiz
+  title: Verordnung zum Schutz vor der schädlichen Wirkung ionisierender Strahlung (Strahlenschutzverordnung - StrlSchV) - Anlage 18 (zu den §§ 171, 197) - Dosis- und Messgrößen
+  url:
+    value: https://www.gesetze-im-internet.de/strlschv_2018/anlage_18.html
+    date: 2023-11-02
