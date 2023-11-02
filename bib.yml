@@ -1,0 +1,72 @@
+bfs:
+    type: Web
+    author: [Bundesamt Für Strahlenschutz]
+    title: Strahlenwirkungen
+    url:
+      value: https://www.bfs.de/DE/themen/ion/wirkung/wirkung_node.html
+      date: 2023-05-02
+
+df:
+  type: Web
+  author: [Frank Grotelüschen]
+  publisher: Deutschlandfunk
+  title: Als Henri Becquerel seine Entdeckung der Radioaktivität präsentierte
+  date: 2021-02-24
+  url:
+    value: https://www.deutschlandfunk.de/vor-125-jahren-in-paris-als-henri-becquerel-seine-100.html
+    date: 2023-10-24
+
+epa:
+  type: Web
+  author: United States Environmental Protection Agency
+  title: Radiation Basics
+  url:
+    value: https://www.epa.gov/radiation/radiation-basics
+    date: 2023-05-02
+      
+bioeffects:
+  type: Book
+  author: [Grosch Daniel S., Hopewood Larry E.]
+  title: Biological Effects of Radiations
+  date: 1979
+  location: Amsterdam, Niederlande
+  edition: 2
+
+radiobio:
+  type: Book
+  author: [Hall Eric J., Giaccia Amato J.]
+  title: Radiobiology for the Radiologist
+  date: 2011
+  location: Philadelphia, Pennsylvania
+  edition: 7
+
+medphwiki:
+  type: Web
+  author: Medizinphysik Wiki
+  title: Biologische Strahlenwirkung
+  url:
+    value: https://medizinphysik.wiki/grundlagen/biologische-grundlagen/
+    date: 2023-05-02
+
+leifi:
+  type: Web
+  author: Leifiphysik
+  title: Biologische Strahlenwirkung
+  url:
+    value: https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-einfuehrung/grundwissen/biologische-strahlenwirkung
+    date: 2023-05-02
+
+umbw:
+  type: Web
+  author: UM Baden-Württemberg
+  title: Dosisgrößen und die Wirkung der Strahlung
+  url:
+    value: https://um.baden-wuerttemberg.de/de/umwelt-natur/kernenergie/strahlenschutz/informationen-zum-strahlenschutz/radioaktivitaet-und-ionisierende-strahlung/dosisgroessen-und-die-wirkung-der-strahlung
+    date: 2023-05-02
+
+volkmer:
+  type: Book
+  author: Volkmer M.
+  title: Radioaktivität und Strahlenschutz
+  date: 2012
+  location: Berlin, Deutschland
