@@ -196,7 +196,7 @@ der Kräfte und schließlich zum Tod.
 
 = Strahlenwirkungen auf Organe
 
-Die Auswirkungen auf einzelne Organe7 werden mitunter durch Milieufaktoren und
+Die Auswirkungen auf einzelne Organe werden mitunter durch Milieufaktoren und
 relative Strahlenempfindlichkeit bestimmt: Somit sind Organe wie rotes
 Knochenmark, Lunge und Keimdrüsen für Strahlung empfindlicher als zum Beispiel
 die Haut.
@@ -205,7 +205,7 @@ die Haut.
 
 = Strahlenwirkungen auf einzelne Zellen
 
-Auf der Zellebene8 wird der Prozess von Strahlenschäden in 4 Phasen unterteilt:
+Auf der Zellebene wird der Prozess von Strahlenschäden in 4 Phasen unterteilt:
 die physikalische, physikochemische, chemische und biologische Phase. In der
 physikalischen Phase werden durch Interaktion mit Strahlung Biomoleküle
 ionisiert, was zur Modifikation oder Zerstörung des Moleküls führt. Bei einer
