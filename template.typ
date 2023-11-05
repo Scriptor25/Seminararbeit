@@ -70,7 +70,7 @@
     align(left)[Abgabe beim Oberstufenkoordiantor am:],
     align(left)[..............................],
   )
-  block(height: 13%, width: 100%)[
+  block(height: 11%, width: 100%)[
     #align(
       right + bottom,
     )[............................................................ \
@@ -101,22 +101,29 @@
 
   body
 
+  set page(numbering: none)
+
+  bibliography("bib.yml", style: "mla")
+
   pagebreak()
+  align(
+    horizon + center,
+  )[
+    #text(
+      weight: "bold",
+    )[Ich erkläre hiermit, dass ich die Seminararbeit ohne fremde Hilfe angefertigt
+      und nur die im Literaturverzeichnis angeführten Quellen und Hilfsmittel benützt
+      habe.]
 
-  text(
-    weight: "bold",
-  )[Ich erkläre hiermit, dass ich die Seminararbeit ohne fremde Hilfe angefertigt
-    und nur die im Literaturverzeichnis angeführten Quellen und Hilfsmittel benützt
-    habe.]
-
-  grid(
-    columns: (35%, 30%, 35%),
-    rows: (2%, 2%),
-    [......................................,],
-    [den ......................],
-    [........................................],
-    align(center)[Ort],
-    align(center)[Datum],
-    align(center)[Unterschrift des Schülers],
-  )
+    #grid(
+      columns: (35%, 30%, 35%),
+      rows: (2%, 2%),
+      [......................................,],
+      [den ......................],
+      [........................................],
+      align(center)[Ort],
+      align(center)[Datum],
+      align(center)[Unterschrift des Schülers],
+    )
+  ]
 }
