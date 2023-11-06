@@ -6,16 +6,6 @@ bfs:
     value: https://www.bfs.de/DE/themen/ion/wirkung/wirkung_node.html
     date: 2023-05-02
 
-df:
-  type: Web
-  author: ["Grotelüschen, Frank"]
-  publisher: Deutschlandfunk
-  title: Als Henri Becquerel seine Entdeckung der Radioaktivität präsentierte
-  date: 2021-02-24
-  url:
-    value: https://www.deutschlandfunk.de/vor-125-jahren-in-paris-als-henri-becquerel-seine-100.html
-    date: 2023-10-24
-
 epa:
   type: Web
   publisher: United States Environmental Protection Agency

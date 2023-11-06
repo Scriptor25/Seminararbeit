@@ -65,9 +65,9 @@
   grid(
     columns: (60%, auto),
     rows: (2%, 2%),
-    align(left)[Gesamtbewerbung ((3x schriftlich + 1x mündlich) : 2):],
+    align(left)[Gesamtbewertung ((3x schriftlich + 1x mündlich) : 2):],
     align(left)[.......... Punkte],
-    align(left)[Abgabe beim Oberstufenkoordiantor am:],
+    align(left)[Abgabe beim Oberstufenkoordinator am:],
     align(left)[..............................],
   )
   block(height: 11%, width: 100%)[
@@ -97,7 +97,7 @@
 
   set text(size: 12pt)
   set page(numbering: "1", number-align: center)
-  set cite(style: "chicago-notes")
+  set cite(style: "mla")
 
   body
 

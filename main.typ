@@ -25,7 +25,7 @@ elektromagnetische Strahlung wie Licht, Mikrowellenstrahlung in, wie
 wahrscheinlich schon vermutet, Mirkrowellen-Öfen, und natürlich auch die
 radioaktive Strahlung, um die es in diesem Werk hauptsächlich geht. Entdeckt
 wurde Radioaktivität bereits vor etwa 128 Jahren, also Ende des 19ten
-Jahrhunderts duch Henri Becquerel @df, der durch Zufall darauf stieß und erhielt
+Jahrhunderts duch Henri Becquerel, der durch Zufall darauf stieß und erhielt
 dafür, zusammen mit dem Curie-Ehepaar, den Physik-Nobelpreis. Damals waren
 jedoch die Auswirkungen der Strahlung auf biologische Organismen wie den
 Menschen noch nicht erforscht, was unter anderem in Dingen wie "Uran-Zahnpasta"
@@ -45,7 +45,7 @@ allgemeine Aussagen über die Interaktion zwischen Materie und Strahlung zu
 treffen. Es gibt verschiedene Möglichkeiten, Strahlenwirkung damit darzustellen:
 Die Energiedosis (@energiedosis), Äquivalentdosis (@aequivalentdosis),
 Organdosis (@organdosis) und die effektive Dosis (@effektivedosis). @let
-beschäftigt sich mit dem linearen Energietransfer ($"LET"$) und dem Phänomen des "Bragg-Peak".
+beschäftigt sich mit dem linearen Energietransfer (LET) und dem Phänomen des "Bragg-Peak".
 
 == Energiedosis <energiedosis>
 
@@ -94,15 +94,17 @@ Gesamtwirkung auf den menschlichen Organismus näherungsweise modelliert:
 
 $ E = sum_T w_T * H_T $
 
-== $"LET"$ und Bragg-Peak <let>
+== LET und Bragg-Peak <let>
 
-Der $"LET"$ (lineare Energietransfer) beschreibt die Energie $Delta E$ entlang
+Der LET (lineare Energietransfer) $L$ beschreibt die Energie $Delta E$ entlang
 des Weges des "Primärstrahls" über der zurückgelegten Strecke $Delta s$:
 
-$ "LET" = ( Delta E ) / ( Delta s ) $
+$ L = ( Delta E ) / ( Delta s ) $
 
-Ein damit verbundener Effekt, der häufig für medizinische Zwecke angewandt wird,
-wird als "Bragg-Peak" bezeichnet. Dieses Phänomen tritt beim Abbremsen des
+Angegeben wird $L$ normalerweise in $"kEv"/ ( µ m )$ (@radiobio, S. 104).
+
+Ein mit dem LET verbundener Effekt, der häufig für medizinische Zwecke angewandt
+wird, wird als "Bragg-Peak" bezeichnet. Dieses Phänomen tritt beim Abbremsen des
 Strahlungsteilchens in Materie auf, wobei ein Großteil der Energie abgegeben
 wird. Praktische Anwendung findet sich hierbei in der Partikeltherapie: das
 Teilchen gibt beim Eindringen fast keine Energie ab; erst beim Verlangsamen im
@@ -170,85 +172,102 @@ treten diese unabhängig vom bestrahlten Volumen oder einem Schwellwert auf.
 
 #pagebreak()
 
-// TODO: alles nach hier
+= Auswirkungen auf den Menschlichen Körper
 
-= Strahlenwirkungen im Allgemeinen
+== Bezogen auf den ganzen Körper
 
-Nachdem diese Begriffe nun geklärt sind, zurück zur eigentlichen Frage: was sind
-die Auswirkungen radioaktiver Strahlung? Im Bezug auf den gesamten Körper gibt
-es verschiedene Symptome: wenn man von deterministischen Schäden spricht, hängen
-die Auswirkungen von der Strahlenmenge ab. Bei einer Dosis von etwa 0,25 Sv
-sinkt die Zahl der Lymphozyten, das Blutbild verändert sich für kurze Zeit. Ab
-einem $"Sv"$ kommt es zur vorrübergehenden Strahlenkrankheit, auch
-"Strahlenkater" genannt. In dieser Phase kann es nach ein paar Wochen zu
-Haarausfall, Hautrötungen und weiteren deterministischen Schäden kommen. Zur
-schweren Strahlenkrankheit kommt es bei etwa 4 Sv, die in etwa 50 % der Fälle
-bei Nicht-Behandlung zum Tod führt. Dabei verschwinden fast alle Lymphozyten
-wodurch das Infektionsrisiko mit Krankheiten steigt. Des Weiteren kann es zu
-inneren Blutungen, Fieber, Sterilität (Männer) oder Zyklusstörungen (Frauen)
-kommen. Die tödliche Dosis liegt bei etwa 7 Sv, selbst bei medizinischer
-Behandlung noch in fast allen Fällen. Zunächst kommt es wie bei den vorherigen
-Schwellwerten in den ersten Tagen zu Übelkeit und Erbrechen, dann zu
-großflächigen Entzündungen in der Schleimhaut, zu Fieber und schnellen verlieren
+Im Bezug auf den gesamten Körper gibt es verschiedene Symptome: wenn man von
+deterministischen Schäden spricht (@deterministisch), hängen die Auswirkungen
+von der Strahlenmenge ab. Bei einer Dosis von etwa 0,25 Sv sinkt die Zahl der
+Lymphozyten, das Blutbild verändert sich für kurze Zeit. Ab 1 $"Sv"$ kommt es
+zur vorrübergehenden Strahlenkrankheit, auch "Strahlenkater" genannt. In dieser
+Phase kann es nach ein paar Wochen zu Haarausfall, Hautrötungen und weiteren
+deterministischen Schäden kommen. Zur schweren Strahlenkrankheit kommt es ab
+etwa 4 Sv, die in etwa 50% der Fälle bei Nicht-Behandlung zum Tod führt. Dabei
+verschwinden fast alle Lymphozyten wodurch das Infektionsrisiko mit
+herkömmlichen Krankheiten steigt. Des Weiteren kann es zu inneren Blutungen,
+Fieber, Sterilität (Männer) oder Zyklusstörungen (Frauen) kommen. Die letale
+Dosis liegt bei etwa 7 Sv. Diese Menge Strahlung führt, selbst bei medizinischer
+Behandlung, in fast allen Fällen zum Tod. Zunächst kommt es wie bei den
+vorherigen Schwellwerten in den ersten Tagen zu Übelkeit und Erbrechen, dann zu
+großflächigen Entzündungen in der Schleimhaut, zu Fieber und schnellem verlieren
 der Kräfte und schließlich zum Tod.
 
-#pagebreak()
+== Strahlenwirkungen auf Organe
 
-= Strahlenwirkungen auf Organe
+Die Auswirkungen auf einzelne Organe werden mitunter durch spezifische
+Milieufaktoren und relative Strahlenempfindlichkeit bestimmt: Somit sind Organe
+wie rotes Knochenmark, Lunge und Keimdrüsen für Strahlung empfindlicher als zum
+Beispiel die Haut.
 
-Die Auswirkungen auf einzelne Organe werden mitunter durch Milieufaktoren und
-relative Strahlenempfindlichkeit bestimmt: Somit sind Organe wie rotes
-Knochenmark, Lunge und Keimdrüsen für Strahlung empfindlicher als zum Beispiel
-die Haut.
+== Strahlenwirkungen auf einzelne Zellen
 
-#pagebreak()
-
-= Strahlenwirkungen auf einzelne Zellen
-
-Auf der Zellebene wird der Prozess von Strahlenschäden in 4 Phasen unterteilt:
-die physikalische, physikochemische, chemische und biologische Phase. In der
-physikalischen Phase werden durch Interaktion mit Strahlung Biomoleküle
-ionisiert, was zur Modifikation oder Zerstörung des Moleküls führt. Bei einer
-Modifikation kommt es in der physikochemischen Phase entweder zur Rekombination
-oder zur Ausbildung freier Radikale, die dann weitere Prozesse anstoßen. In der
-chemischen Phase wird durch Wechselwirkungsprozesse unter anderem auch das
-Zellwasser verändert. Hierbei entstehen wieder freie Radikale und andere
-Spaltprodukte. Dieser Prozess wird Radiolyse genannt. In der letzten, der
-biologischen Phase, kommt es schließlich zur Zerstörung von DNS, Proteinen und
-Aminosäuren, was zu Mutationen oder dem Tod der Zelle führen kann. Die Zelle
-kann jedoch auch wieder vollständig durch Prozesse wie Glykosylase,
-Endonuklease, Polymerase und Ligase repariert werden. Das muss keine Folgen nach
-sich ziehen, kann aber ansonsten zu wie oben schon beschriebenen Spätfolgen
-führen.
+Auf der Zellebene lässt sich der Prozess von Strahlenschäden in 4 Phasen
+unterteilen: die *physikalische*, *physikochemische*, *chemische* und
+*biologische* Phase. In der physikalischen Phase werden durch Interaktion mit
+Strahlung Biomoleküle ionisiert, was zur Modifikation oder Zerstörung des
+Moleküls führt. Bei einer Modifikation kommt es in der physikochemischen Phase
+entweder zur Rekombination, oder zur Ausbildung freier Radikale, die dann
+weitere Prozesse anstoßen. In der chemischen Phase wird durch
+Wechselwirkungsprozesse unter anderem auch das Zellwasser verändert. Hierbei
+entstehen wieder freie Radikale und andere Spaltprodukte. Dieser Prozess wird
+Radiolyse genannt. In der letzten, der biologischen Phase, kommt es schließlich
+zur Zerstörung von DNS, Proteinen und Aminosäuren, was zu Mutationen oder dem
+Tod der Zelle führen kann. Die Zelle kann jedoch auch wieder vollständig durch
+Prozesse wie Glykosylase, Endonuklease, Polymerase und Ligase repariert werden.
+Das muss keine Folgen nach sich ziehen, kann aber auch zu den in @somatisch
+beschriebenen Spätfolgen führen.
 
 #pagebreak()
 
 = Hormesis: Mögliche positive Wirkungen
 
 Die als Hormesis bezeichneten positiven Wirkungen radioaktiver Strahlung ist ein
-noch sehr unerforschtes Gebiet der Strahlenwirkungen und sehr umstritten. So
-wurden in wenigen Fällen positive Auswirkungen von Bestrahlung beobachtet, wie
-eine Beschleunigung von Wachstums- und Entwicklungsprozessen, Anregung von
-Reparaturvorgängen auf Zellebene oder die Konditionierung von Zellen auf
-Radioaktivität. Wie schon gesagt bleibt Hormesis jedoch stark umstritten, da
-diese positiven Wirkungen nur in Einzelfällen zu beobachten sind und in
-vergangenen Studien nur sehr selten aufgetreten sind, und wenn dann meistens in
-künstlichen Umgebungen, wie zum Beispiel das Entnehmen von Lymphozyten um diese
-im Labor zu testen.
+noch sehr unerforschtes Gebiet der Strahlenwirkungen und zusätzlich sehr
+umstritten. So wurden in wenigen Fällen positive Auswirkungen von Bestrahlung
+beobachtet, wie eine Beschleunigung von Wachstums- und Entwicklungsprozessen,
+Anregung von Reparaturvorgängen auf Zellebene oder die Konditionierung von
+Zellen auf Radioaktivität. Wie schon gesagt bleibt Hormesis jedoch stark
+umstritten, da diese positiven Wirkungen nur in Einzelfällen zu beobachten sind
+und in vergangenen Studien nur sehr selten aufgetreten sind, und wenn dann
+meistens in künstlichen Umgebungen, wie zum Beispiel das Entnehmen von
+Lymphozyten um diese im Labor zu testen.
 
 #pagebreak()
 
 = Schlusswort
 
-Strahlenwirkungen können sehr variable auftreten, sich vielfältig Auswirken und
-sind sehr oft nicht mit Sicherheit vorhersagbar. Zwar kann man in Fällen von
-deterministischen oder Frühschäden sehr genau sagen ab wann welche Wirkung
-auftritt, wenn es jedoch zu stochastischen oder genetischen, vererbbaren Schäden
-kommt wird es beinahe unmöglich sichere Vorhersagen zu treffen. Allgemein kann
-man sagen, dass die Auswirkungen von Strahlung von einfachen Hautrötungen und
-Haarausfall bis hin zu Krebserkrankungen und Leukämie reichen und, zumindest bei
-Frühschäden, bis zu einem bestimmten Punkt auch noch medizinisch behandelt
-werden können. Und es gibt zwar auch positive Wirkungen, diese sind jedoch noch
-nicht völlig nachgewiesen oder erforscht.
+Zusammenfassend lässt sich sagen, dass Strahlenwirkungen sehr variabel auftreten
+können, sich vielfältig Auswirken und sehr oft nicht mit Sicherheit vorhersagbar
+sind. Zwar kann man in Fällen von deterministischen oder Frühschäden sehr genau
+sagen ab wann und ab welchem Strahlungs-Wert welche Wirkungen auftreten, wenn es
+jedoch zu stochastischen oder genetischen, vererbbaren Schäden kommt wird es
+beinahe unmöglich sichere Vorhersagen zu treffen. Die Schäden, die durch
+Strahlung entstehen können von einfachen Hautrötungen und Haarausfall bis hin zu
+Krebserkrankungen und Leukämie reichen können und, zumindest bei Frühschäden,
+bis zu einem bestimmten Punkt auch noch medizinisch behandelt werden können. Und
+es könnte zwar auch mögliche positive Auswirkungen geben, diese sind jedoch
+nicht nachweisbar, geschweige denn erforscht.
 
 #pagebreak()
+
+= Anhang
+
+Hier im Anhang möchte ich mich noch für die doch sehr kurz geratene Arbeit
+entschuldigen; man fängt schnell an, die eigene verfügbare Zeit und
+Konzentration maßlos zu überschätzen. Dazu kommt noch, das die Motivation um
+einiges sinkt, wenn man nicht wirktlich viel Interesse an einem Thema hat. Da
+hab in erster Linie nur ich selbst Schuld daran, ich hatte aber von Anfang an
+schon, also bei der Wahl der Themen, keine wirkliche Idee, in welche thematische
+Richtung die Seminararbeit gehen sollte, was nicht wenig daran lag, dass ich mir
+nicht richtig überlegt hatte, ob dieses W-Seminar wirklich das richtige für mich
+wäre. Trotz allem habe ich mir (beim Exposé viel zu viel) Mühe gegeben, richtig
+zu recherchieren und keine falschen Fakten mit aufzunehmen und mich so gut es
+ging an die Vorgaben zu halten.
+
+Die digitale Version der Arbeit finden Sie unter folgendem Link:
+
+#text(navy)[#align(center)[https://github.com/Scriptor25/Seminararbeit]]
+
+(Geschrieben wurde die Seminararbeit in Typst (#text(navy)[https://github.com/typst/typst]))
+
