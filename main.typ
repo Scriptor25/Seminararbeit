@@ -40,12 +40,13 @@ ist das Thema dieser Arbeit und damit der folgenden Kapitel.
 = Dosisgrößen: Einordnung von Strahlungswirkung
 
 Als Grundlage für das Einordnen unterschiedlicher Strahlungsarten und deren
-Auswirkungen dienen die so genannten "Dosisgrößen". Diese ermöglichen es,
-allgemeine Aussagen über die Interaktion zwischen Materie und Strahlung zu
-treffen. Es gibt verschiedene Möglichkeiten, Strahlenwirkung damit darzustellen:
-Die Energiedosis (@energiedosis), Äquivalentdosis (@aequivalentdosis),
-Organdosis (@organdosis) und die effektive Dosis (@effektivedosis). @let
-beschäftigt sich mit dem linearen Energietransfer (LET) und dem Phänomen des "Bragg-Peak".
+Auswirkungen dienen die so genannten "Dosisgrößen"
+@umbw@medphwiki@volkmer[Kapitel 5]. Diese ermöglichen es, allgemeine Aussagen
+über die Interaktion zwischen Materie und Strahlung zu treffen. Es gibt
+verschiedene Möglichkeiten, Strahlenwirkung damit darzustellen: Die Energiedosis
+(@energiedosis), Äquivalentdosis (@aequivalentdosis), Organdosis (@organdosis)
+und die effektive Dosis (@effektivedosis). @let beschäftigt sich mit dem
+linearen Energietransfer (LET) und dem Phänomen des "Bragg-Peak".
 
 == Energiedosis <energiedosis>
 
@@ -73,10 +74,10 @@ ist.
 == Organdosis <organdosis>
 
 Die in @aequivalentdosis beschriebene Äquivalentdosis kann noch mit einem vom
-jeweiligen Organ abhängigen Gewebe-Wichtungsfaktor ($w_T$) multipliziert
-werden.@giide Damit kann die Wirkung einer gewissen Energiedosis auf ein
-bestimmtes Organ dargestellt werden, auch die Organdosis oder
-Organ-Äquivalentdosis genannt:
+jeweiligen Organ abhängigen Gewebe-Wichtungsfaktor ($w_T$) multipliziert werden
+@giide. Damit kann die Wirkung einer gewissen Energiedosis auf ein bestimmtes
+Organ dargestellt werden, auch die Organdosis oder Organ-Äquivalentdosis
+genannt:
 
 $ H_(T,R) = w_R * D_(T,R) $
 
@@ -101,7 +102,7 @@ des Weges des "Primärstrahls" über der zurückgelegten Strecke $Delta s$:
 
 $ L = ( Delta E ) / ( Delta s ) $
 
-Angegeben wird $L$ normalerweise in $"kEv"/ ( µ m )$ (@radiobio, S. 104).
+Angegeben wird $L$ normalerweise in $"kEv"/ ( µ m )$ @radiobio[S. 104].
 
 Ein mit dem LET verbundener Effekt, der häufig für medizinische Zwecke angewandt
 wird, wird als "Bragg-Peak" bezeichnet. Dieses Phänomen tritt beim Abbremsen des
@@ -115,21 +116,21 @@ Zielpunkt ergibt sich eine höhere Dosis.
 = Eindringen von Strahlung in den Organismus
 
 Um sich auf Materie oder einen Organismus auswirken zu können muss Strahlung in
-denselben zunächst eindringen. Hierbei unterscheidet man zwischen zwei
-Ausgangssituation: Eindringen von Außen oder von Innen. In Bezug auf den
-menschlichen Körper kann die Strahlung von Außen durch die Haut eindringen.
-Dabei ist der Effekt stark von der Art der Strahlung abhängig: während $alpha$-Teilchen
-nicht in die Haut eindringen können, durchdringt $beta$-Strahlung diese wenige
-Millimeter. $gamma$- und Neutronen-Strahlung hingegen können tief in den Körper
-eindringen, wobei sie Prozesse wie Zellteilung u.ä. beeinflussen können. Die
-Aufnahme von Strahlung von innerhalb wird als "Inkorporation" bezeichnet:
-Hierbei wird zwischen "Ingestion" und "Inhalation" unterschieden. Bei der
-Ingestion nimmt man Strahlung bzw. radioaktive Teilchen über die Nahrung auf;
-bei der Inhalation über die Atemluft und damit über die Lunge. In beiden Fällen
-ist die Wirkung extremer als bei der reinen äußeren Einwirkung, da hier der Weg
-zu vitalen Organen verkürzt ist. Außerdem können $alpha$-Teilchen, die
-energiereicher sind als $beta$- oder $gamma$-Strahlung, aufgrund des "Bragg-Peaks"
-(@let) viel mehr Schaden anrichten als von außerhalb.
+denselben zunächst eindringen @umbw@leifi@volkmer[Kapitel 7.5]. Hierbei
+unterscheidet man zwischen zwei Ausgangssituation: Eindringen von Außen oder von
+Innen. In Bezug auf den menschlichen Körper kann die Strahlung von Außen durch
+die Haut eindringen. Dabei ist der Effekt stark von der Art der Strahlung
+abhängig: während $alpha$-Teilchen nicht in die Haut eindringen können,
+durchdringt $beta$-Strahlung diese wenige Millimeter. $gamma$- und
+Neutronen-Strahlung hingegen können tief in den Körper eindringen, wobei sie
+Prozesse wie Zellteilung u.ä. beeinflussen können. Die Aufnahme von Strahlung
+von innerhalb wird als "Inkorporation" bezeichnet: Hierbei wird zwischen "Ingestion"
+und "Inhalation" unterschieden. Bei der Ingestion nimmt man Strahlung bzw.
+radioaktive Teilchen über die Nahrung auf; bei der Inhalation über die Atemluft
+und damit über die Lunge. In beiden Fällen ist die Wirkung extremer als bei der
+reinen äußeren Einwirkung, da hier der Weg zu vitalen Organen verkürzt ist.
+Außerdem können $alpha$-Teilchen, die energiereicher sind als $beta$- oder $gamma$-Strahlung,
+aufgrund des "Bragg-Peaks" (@let) viel mehr Schaden anrichten als von außerhalb.
 
 #pagebreak()
 
@@ -138,37 +139,39 @@ energiereicher sind als $beta$- oder $gamma$-Strahlung, aufgrund des "Bragg-Peak
 == Deterministische Strahlenwirkung <deterministisch>
 
 Auswirkungen radioaktiver Strahlung, die erst ab einem gewissen Schwellwert
-auftreten, werden "deterministisch" genannt. So sind unter diesem Wert keine
-beobachtbaren Schäden oder sonstige Auswirkungen erkennbar, ab dem Grenzwert
-steigt die Ausprägung mit der Dosis. Außerdem ist die Wahrscheinlichkeit, dass
-Schäden entstehen, unabhängig vom Volumen bzw. der Oberfläche, die bestrahlt
-wird. Beispiele für deterministische Strahlenschäden sind Katarakte (grauer
-Star) und Hautrötung. Ein typischer Schwellwert für menschliches Gewebe liegt
-bei etwa 500$"mSv"$. Die Auswirkungen sind schon nach relativ kurzer Zeit
-sichtbar, im Vergleich zu stochastischen (@stochastisch) oder somatischen
-Schäden (@somatisch).
+auftreten, werden "deterministisch" genannt @umbw@medphwiki@leifi@bfs["Wie wirkt
+Strahlung?"]. So sind unter diesem Wert keine beobachtbaren Schäden oder
+sonstige Auswirkungen erkennbar, ab dem Grenzwert steigt die Ausprägung mit der
+Dosis. Außerdem ist die Wahrscheinlichkeit, dass Schäden entstehen, unabhängig
+vom Volumen bzw. der Oberfläche, die bestrahlt wird. Beispiele für
+deterministische Strahlenschäden sind Katarakte (grauer Star) und Hautrötung.
+Ein typischer Schwellwert für menschliches Gewebe liegt bei etwa 500$"mSv"$. Die
+Auswirkungen sind schon nach relativ kurzer Zeit sichtbar, im Vergleich zu
+stochastischen (@stochastisch) oder somatischen Schäden (@somatisch).
 
 == Stochastische Strahlenwirkung <stochastisch>
 
 Wenn Strahlenschäden zufällig, also nicht einem Muster oder irgendwelchen
-Faktoren folgend auftreten, so spricht man von stochastischer Strahlenwirkung.
-Hier ist im Gegensatz zu den deterministischen Auswirkungen (@deterministisch)
-die Wahrscheinlichkeit direkt von der bestrahlten Fläche bzw. vom bestrahlten
-Volumen abhängig und dazu proportional, jedoch ist die Schwere der Schäden davon
-unabhängig. Es gibt keinen Schwellwert, und das Auftreten kann um Monate bis
-Jahre verzögert sein, weswegen man auch von Langzeitschäden spricht. Dazu zählen
-Krebserkrankungen ("Karzinogenese" und somatische Schäden, @somatisch) und
-vererbbare genetische Schäden ("hereditär").
+Faktoren folgend auftreten, so spricht man von stochastischer Strahlenwirkung
+@umbw@medphwiki@leifi@bfs["Wie wirkt Strahlung?"]. Hier ist im Gegensatz zu den
+deterministischen Auswirkungen (@deterministisch) die Wahrscheinlichkeit direkt
+von der bestrahlten Fläche bzw. vom bestrahlten Volumen abhängig und dazu
+proportional, jedoch ist die Schwere der Schäden davon unabhängig. Es gibt
+keinen Schwellwert, und das Auftreten kann um Monate bis Jahre verzögert sein,
+weswegen man auch von Langzeitschäden spricht. Dazu zählen Krebserkrankungen
+("Karzinogenese" und somatische Schäden, @somatisch) und vererbbare genetische
+Schäden ("hereditär").
 
 == Somatische Strahlenwirkung <somatisch>
 
 Als Unterklasse der stochastischen Strahlenschäden (@stochastisch) existieren
 neben den genetisch vererbbaren Auswirkungen noch die somatischen
-Strahlenschäden. Hierbei wird noch einmal in Früh- und Spätschäden
-unterschieden, wobei die Frühschäden gleichbedeutend mit deterministischen
-Wirkungen sind (siehe @deterministisch). Unter spät auftretende Auswirkungen
-fallen Krebserkrankungen und Leukämie; und wie schon in @stochastisch erwähnt
-treten diese unabhängig vom bestrahlten Volumen oder einem Schwellwert auf.
+Strahlenschäden @volkmer[Kapitel 6.5]. Hierbei wird noch einmal in Früh- und
+Spätschäden unterschieden, wobei die Frühschäden gleichbedeutend mit
+deterministischen Wirkungen sind (siehe @deterministisch). Unter spät
+auftretende Auswirkungen fallen Krebserkrankungen und Leukämie; und wie schon in
+@stochastisch erwähnt treten diese unabhängig vom bestrahlten Volumen oder einem
+Schwellwert auf.
 
 #pagebreak()
 
@@ -176,34 +179,36 @@ treten diese unabhängig vom bestrahlten Volumen oder einem Schwellwert auf.
 
 == Bezogen auf den ganzen Körper
 
-Im Bezug auf den gesamten Körper gibt es verschiedene Symptome: wenn man von
-deterministischen Schäden spricht (@deterministisch), hängen die Auswirkungen
-von der Strahlenmenge ab. Bei einer Dosis von etwa 0,25 Sv sinkt die Zahl der
-Lymphozyten, das Blutbild verändert sich für kurze Zeit. Ab 1 $"Sv"$ kommt es
-zur vorrübergehenden Strahlenkrankheit, auch "Strahlenkater" genannt. In dieser
-Phase kann es nach ein paar Wochen zu Haarausfall, Hautrötungen und weiteren
-deterministischen Schäden kommen. Zur schweren Strahlenkrankheit kommt es ab
-etwa 4 Sv, die in etwa 50% der Fälle bei Nicht-Behandlung zum Tod führt. Dabei
-verschwinden fast alle Lymphozyten wodurch das Infektionsrisiko mit
-herkömmlichen Krankheiten steigt. Des Weiteren kann es zu inneren Blutungen,
-Fieber, Sterilität (Männer) oder Zyklusstörungen (Frauen) kommen. Die letale
-Dosis liegt bei etwa 7 Sv. Diese Menge Strahlung führt, selbst bei medizinischer
-Behandlung, in fast allen Fällen zum Tod. Zunächst kommt es wie bei den
-vorherigen Schwellwerten in den ersten Tagen zu Übelkeit und Erbrechen, dann zu
-großflächigen Entzündungen in der Schleimhaut, zu Fieber und schnellem verlieren
-der Kräfte und schließlich zum Tod.
+Im Bezug auf den gesamten Körper gibt es verschiedene Symptome
+@leifi@volkmer[Kapitel 6.5]@bfs["Folgen eines Strahlenunfalls"]@epa["Radiation
+Health Effects"]: wenn man von deterministischen Schäden spricht
+(@deterministisch), hängen die Auswirkungen von der Strahlenmenge ab. Bei einer
+Dosis von etwa 0,25 Sv sinkt die Zahl der Lymphozyten, das Blutbild verändert
+sich für kurze Zeit. Ab 1 $"Sv"$ kommt es zur vorrübergehenden
+Strahlenkrankheit, auch "Strahlenkater" genannt. In dieser Phase kann es nach
+ein paar Wochen zu Haarausfall, Hautrötungen und weiteren deterministischen
+Schäden kommen. Zur schweren Strahlenkrankheit kommt es ab etwa 4 Sv, die in
+etwa 50% der Fälle bei Nicht-Behandlung zum Tod führt. Dabei verschwinden fast
+alle Lymphozyten wodurch das Infektionsrisiko mit herkömmlichen Krankheiten
+steigt. Des Weiteren kann es zu inneren Blutungen, Fieber, Sterilität (Männer)
+oder Zyklusstörungen (Frauen) kommen. Die letale Dosis liegt bei etwa 7 Sv.
+Diese Menge Strahlung führt, selbst bei medizinischer Behandlung, in fast allen
+Fällen zum Tod. Zunächst kommt es wie bei den vorherigen Schwellwerten in den
+ersten Tagen zu Übelkeit und Erbrechen, dann zu großflächigen Entzündungen in
+der Schleimhaut, zu Fieber und schnellem verlieren der Kräfte und schließlich
+zum Tod.
 
 == Strahlenwirkungen auf Organe
 
-Die Auswirkungen auf einzelne Organe werden mitunter durch spezifische
-Milieufaktoren und relative Strahlenempfindlichkeit bestimmt: Somit sind Organe
-wie rotes Knochenmark, Lunge und Keimdrüsen für Strahlung empfindlicher als zum
-Beispiel die Haut.
+Die Auswirkungen auf einzelne Organe @volkmer[Kapitel 6.6] werden mitunter durch
+spezifische Milieufaktoren und relative Strahlenempfindlichkeit bestimmt: Somit
+sind Organe wie rotes Knochenmark, Lunge und Keimdrüsen für Strahlung
+empfindlicher als zum Beispiel die Haut.
 
 == Strahlenwirkungen auf einzelne Zellen
 
-Auf der Zellebene lässt sich der Prozess von Strahlenschäden in 4 Phasen
-unterteilen: die *physikalische*, *physikochemische*, *chemische* und
+Auf der Zellebene @medphwiki lässt sich der Prozess von Strahlenschäden in 4
+Phasen unterteilen: die *physikalische*, *physikochemische*, *chemische* und
 *biologische* Phase. In der physikalischen Phase werden durch Interaktion mit
 Strahlung Biomoleküle ionisiert, was zur Modifikation oder Zerstörung des
 Moleküls führt. Bei einer Modifikation kommt es in der physikochemischen Phase
@@ -222,16 +227,17 @@ beschriebenen Spätfolgen führen.
 
 = Hormesis: Mögliche positive Wirkungen
 
-Die als Hormesis bezeichneten positiven Wirkungen radioaktiver Strahlung ist ein
-noch sehr unerforschtes Gebiet der Strahlenwirkungen und zusätzlich sehr
-umstritten. So wurden in wenigen Fällen positive Auswirkungen von Bestrahlung
-beobachtet, wie eine Beschleunigung von Wachstums- und Entwicklungsprozessen,
-Anregung von Reparaturvorgängen auf Zellebene oder die Konditionierung von
-Zellen auf Radioaktivität. Wie schon gesagt bleibt Hormesis jedoch stark
-umstritten, da diese positiven Wirkungen nur in Einzelfällen zu beobachten sind
-und in vergangenen Studien nur sehr selten aufgetreten sind, und wenn dann
-meistens in künstlichen Umgebungen, wie zum Beispiel das Entnehmen von
-Lymphozyten um diese im Labor zu testen.
+Die als Hormesis @bfs["Mögliche positive Wirkungen ionisierender Strahlung -
+Hormesis"] bezeichneten positiven Wirkungen radioaktiver Strahlung ist ein noch
+sehr unerforschtes Gebiet der Strahlenwirkungen und zusätzlich sehr umstritten.
+So wurden in wenigen Fällen positive Auswirkungen von Bestrahlung beobachtet,
+wie eine Beschleunigung von Wachstums- und Entwicklungsprozessen, Anregung von
+Reparaturvorgängen auf Zellebene oder die Konditionierung von Zellen auf
+Radioaktivität. Wie schon gesagt bleibt Hormesis jedoch stark umstritten, da
+diese positiven Wirkungen nur in Einzelfällen zu beobachten sind und in
+vergangenen Studien nur sehr selten aufgetreten sind, und wenn dann meistens in
+künstlichen Umgebungen, wie zum Beispiel das Entnehmen von Lymphozyten um diese
+im Labor zu testen.
 
 #pagebreak()
 

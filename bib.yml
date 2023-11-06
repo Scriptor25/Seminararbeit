@@ -1,7 +1,7 @@
 bfs:
   type: Web
   publisher: Bundesamt Für Strahlenschutz
-  title: Strahlenwirkungen
+  title: "BFS: Strahlenwirkungen"
   url:
     value: https://www.bfs.de/DE/themen/ion/wirkung/wirkung_node.html
     date: 2023-05-02
@@ -9,7 +9,7 @@ bfs:
 epa:
   type: Web
   publisher: United States Environmental Protection Agency
-  title: Radiation Basics
+  title: "EPA: Radiation Basics"
   url:
     value: https://www.epa.gov/radiation/radiation-basics
     date: 2023-05-02
@@ -33,7 +33,7 @@ radiobio:
 medphwiki:
   type: Web
   publisher: Medizinphysik Wiki
-  title: Biologische Strahlenwirkung
+  title: "Medizinphysik-Wiki: Biologische Strahlenwirkung"
   url:
     value: https://medizinphysik.wiki/grundlagen/biologische-grundlagen/
     date: 2023-05-02
@@ -41,7 +41,7 @@ medphwiki:
 leifi:
   type: Web
   publisher: Leifiphysik
-  title: Biologische Strahlenwirkung
+  title: "Leifiphysik: Biologische Strahlenwirkung"
   url:
     value: https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-einfuehrung/grundwissen/biologische-strahlenwirkung
     date: 2023-05-02
@@ -64,7 +64,7 @@ volkmer:
 giide:
   type: Web
   publisher: Bundesamt für Justiz
-  title: Verordnung zum Schutz vor der schädlichen Wirkung ionisierender Strahlung (Strahlenschutzverordnung - StrlSchV) - Anlage 18 (zu den §§ 171, 197) - Dosis- und Messgrößen
+  title: StrlSchV - Anlage 18 (zu den §§ 171, 197) - Dosis- und Messgrößen
   url:
     value: https://www.gesetze-im-internet.de/strlschv_2018/anlage_18.html
     date: 2023-11-02
